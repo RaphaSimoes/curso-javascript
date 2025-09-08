@@ -1,6 +1,12 @@
 Sintaxe
     texto = string
     A vírgula serve para exibir o valor de uma variável junto com outros textos, inserindo um espaço automático entre eles.
+    Diferença de Let e Const 
+        Use let para variáveis que você precisa alterar o valor depois, como um contador ou o placar de um jogo.
+
+        Use const para valores que não devem mudar nunca, como a data de nascimento de alguém ou uma taxa de juros fixa.
+
+        Em resumo: let é mutável, const é "travada" (constante).
 
 IMPORTANTE ⚠️
     Sobre LET
@@ -11,3 +17,13 @@ IMPORTANTE ⚠️
         Utilizamos camelCases 
         Case-sensitive
         Não podemos redeclarar variáveis com let
+        NÃO UTILIZE VAR, UTILIZE LET 
+    Sobre Constante
+        Não podemos criar Constante com palavras reservadas
+        Constante precisam ter nomes significativos 
+        Não pode começar o nome de uma Constante com um número
+        Não podem conter espaços ou traços
+        Utilizamos camelCases 
+        Case-sensitive
+        Não podemos modificar o valor de Constante 
+        NÃO UTILIZE VAR, UTILIZE CONST 
