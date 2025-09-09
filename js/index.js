@@ -1,21 +1,11 @@
-// Exercicio Aula 8 
+//*interegindo com o html, Ao usar um prompt, a saida sempre será uma string, independente se o usuário coloca texto ou números e para  alterar a saida de string para number é necessário : variavel = number (variavel)
 
-// Raphaela Cupertino Simões tem 22 anos, pesa 70kg
-// tem 1.76 de altura e seu IMC é de ... e ele nasceu em ...
+alert("Seja Bem vindo")
+let num1 = prompt("Digite um número de 1 á 10")
+let num2 = prompt("Digite mais um número de 1 á 10")
 
-const nome = "Raphela"
-const sobrenome = "Cupertino Simões"
-const idade = 22
-const peso = 70
-const alturaEmM = 1.75
-const imc= peso / (alturaEmM * alturaEmM)
-let anoAtual = 2035
-const anoDeNascimento = anoAtual - idade
+num1 = Number (num1)
+num2 = Number (num2)
 
-console.log(nome, sobrenome,"tem", idade,"anos, pesa", peso,"kg, sua altura é de", alturaEmM, "e seu imc é", imc, " e ela nasceu em", anoDeNascimento)
-
-console.log()
-
-//Templete strings
-console.log(`${nome} ${sobrenome} tem ${idade} anos, pesa ${peso}kg sua altura é de ${alturaEmM} e seu imc é ${imc}, e ela nasceu em ${anoDeNascimento}`)
-
+let resultado = (num1 + num2)
+alert(`O resultado dos números somados é ${resultado}`)
