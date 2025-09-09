@@ -1,11 +1,13 @@
-//*interegindo com o html, Ao usar um prompt, a saida sempre será uma string, independente se o usuário coloca texto ou números e para  alterar a saida de string para number é necessário : variavel = number (variavel)
+//* Desafio var
 
-alert("Seja Bem vindo")
-let num1 = prompt("Digite um número de 1 á 10")
-let num2 = prompt("Digite mais um número de 1 á 10")
 
-num1 = Number (num1)
-num2 = Number (num2)
+let varA = "A" //* B
+let varB = "B" //* C
+let varC = "C" //* A
 
-let resultado = (num1 + num2)
-alert(`O resultado dos números somados é ${resultado}`)
+const varTemp = varA
+varA = varB
+varB = varC
+varC = varTemp
+
+console.log(varA, varB, varC)
