@@ -1,12 +1,19 @@
 Sintaxe
     texto = string
     A vírgula serve para exibir o valor de uma variável junto com outros textos, inserindo um espaço automático entre eles.
+    
     Diferença de Let e Const 
         Use let para variáveis que você precisa alterar o valor depois, como um contador ou o placar de um jogo.
 
         Use const para valores que não devem mudar nunca, como a data de nascimento de alguém ou uma taxa de juros fixa.
 
         Em resumo: let é mutável, const é "travada" (constante).
+    
+    Modelo tamplate string
+        Usando o template string fica muito mais organizado e legivel sua string
+
+         `${variavél} texto .... `
+
 
 IMPORTANTE ⚠️
     Sobre LET
